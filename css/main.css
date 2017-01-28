@@ -1,8 +1,10 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #88AD85;
 }
 
+/*All pages nav bar*/
 nav {
 	background-color: #88AD85;
 	height: 100px;
@@ -41,6 +43,7 @@ nav a:hover {
 	color: #A573BA;
 }
 
+/*Home page*/
 header {
 	background-image: url(../images/lavenderandbee.jpg);
 	background-repeat: no-repeat;
@@ -123,7 +126,8 @@ h3 {
 .modal-header,
 .modal-body {
 	font-family: "Amatic SC", cursive;
-	font-size: 50px;
+	font-size: 40px;
+	color: #000;
 	text-align: center;
 	background-color: #88AD85;
 	border: none;
@@ -133,6 +137,7 @@ h3 {
 	text-align: center;
 }
 
+/*All pages footer*/
 #contact {
 	background-color: #88AD85;
 	height: 400px;
@@ -225,9 +230,153 @@ h3 {
 	color: #A573BA;
 }
 
+/*About page*/
+#about {
+	text-align: center;
+	height: auto;
+	width: 60%;
+	margin: 0 auto;
+	background-color: #A573BA;
+}
 
+#about img {
+	margin-top: 30px;
+}
 
+#about h2 {
+	font-family: "Amatic SC", cursive;
+	font-size: 60px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
 
+#about p {
+	font-family: "Amatic SC", cursive;
+	font-size: 30px;
+}
 
+/*Projects page*/
+#carousel {
+	margin: 30px 0;
+	height: auto;
+	background-color: #A573BA;
+}
 
+#carousel img {
+	margin: 0 auto;
+}
 
+/*FAQ page*/
+
+#accordion {
+	margin: auto 20px;
+	background-color: #A573BA;
+	text-align: center;
+}
+
+#accordion h1 {
+	font-family: "Amatic SC", cursive;
+	font-size: 70px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+#accordion .panel-heading {
+	background-color: #A573BA;
+}
+
+#accordion .panel {
+	border: 1px solid #A573BA;
+}
+
+#accordion h4 {
+	font-family: "Amatic SC", cursive;
+	font-size: 50px;
+}
+
+#accordion .panel-body {
+	font-family: "Amatic SC", cursive;
+	font-size: 30px;
+}
+
+#accordion a:hover {
+	color: #88AD85;
+	text-decoration: none;
+}
+
+/*Contact page*/
+#main-contact {
+	text-align: center;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #A573BA;
+}
+
+#main-contact h2 {
+	font-family: "Amatic SC", cursive;
+	font-size: 50px;
+	margin-bottom: 30px;
+	line-height: 70px;
+}
+
+#blog .blog-post{
+	text-align: center;
+	font-family: "Amatic SC", cursive;
+	background-color: #A573BA;
+}
+
+#blog .blog-post h2 {
+	font-size: 80px;
+	margin: 50px 0 30px 0;
+	text-decoration: underline;
+}
+
+#blog .blog-post h3 {
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#blog .blog-post p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 40px;
+	padding: 0 50px;
+}
+
+#blog .blog-post li {
+	text-align: left;
+	font-size: 40px;
+}
+
+#blog .blog-post a {
+	color: #000;
+}
+
+#blog .blog-post a:hover {
+	color: #88AD85;
+	text-decoration: none;
+}
+
+#blog .blog-post hr {
+	border: 5px solid #000;
+	margin-left: 10px;
+}
+
+#blog .sidebar h3 {
+	font-family: "Amatic SC", cursive;
+}
+
+#blog .sidebar a {
+	color: #000;
+}
+
+#blog .sidebar li {
+	font-family: "Amatic SC", cursive;
+	font-size: 40px;
+}
+
+#blog .sidebar a:hover {
+	color: #A573BA;
+	text-decoration: none;
+}
